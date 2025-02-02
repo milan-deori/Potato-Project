@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    
+  }
+
+  .upload-wrapper{
+    height: 100vh;
+    background-image: url(../components/bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centers content vertically */
+  
+
+  }
+  
+  .app {
+    text-align: center;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.4); /* Light transparent background */
+    border: 2.5px dotted #007bff; /* Dotted border */
+    border-radius: 12px; /* Slightly rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+  
+    max-width: 500px; /* Limits the content width */
+    width: 100%;
+  }
+  .imgg{
+    border-radius: 1rem;
+    padding-bottom: 0;
+    margin-bottom: 0.5rem;
+  }
+  
+  .icon {
+    font-size: 6rem;
+    color: #007bff; /* Matches the button color */
+    margin: 1rem 0;
+  }
+  
+  form {
+    margin: 1rem 0;
+  }
+  
+  input[type="file"] {
+    margin: 1rem;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border-radius: 8px; 
+    padding: 10px 20px; 
+    font-size: 1.1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 2px solid #FFC107;
+    font-weight:500;
+    transition: all 0.3s ease; 
+    margin-top: 1.3rem;
+    
+  }
+  
+  button:disabled {
+    background-color: #a0a0a0;
+    cursor: not-allowed;
+  }
+  
+  
+  
+  .mainresult{
+   display: flex;
+   gap: 18%;
+   font-size: 1.3rem;
+   
+  }
+  .link{
+    text-decoration: none;
+    color: #ffffff; 
+  }
+ 
+  
